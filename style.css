@@ -1,0 +1,72 @@
+body{
+        margin: 0;
+        padding: 0;
+        background-color: #454545;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+}
+.container {
+    
+    background-color: #454545;
+}
+
+h1,h2,h3,h4,hr{
+    color: lightgray;
+}
+
+ .search-container {
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 80%;
+     max-width: 400px;
+     border-radius: 50px;
+     background-color: white;
+     padding: 8px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     margin-bottom: 20px;
+ }
+
+ .search-icon {
+     position: absolute;
+     top: 100%;
+     left: 50%;
+     transform: translateX(-50%);
+     padding: 10px;
+     background-color: lightgray;
+     border-radius: 50%;
+ }
+
+ .filter-icon {
+     padding: 10px;
+     background-color: lightgray;
+     border-radius: 50%;
+ }
+
+ .search-text {
+     flex: 1;
+ }
+
+.app-box {
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    /* Styles for the app boxes container */
+}
+
+.inner-app-box {
+        margin: 20px;
+    border: 1px solid black;
+        height: 100px;
+        width: 50px;
+        border-radius: 20px;
+    flex: 1;
+    /* Styles for individual app boxes */
+}
+.test{
+    display: flex;
+    flex-direction: column;
+}
